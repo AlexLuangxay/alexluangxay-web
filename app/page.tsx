@@ -130,17 +130,13 @@ export default function App() {
           <div className="md:col-span-4 bg-white border border-blue-100 rounded-2xl p-5 shadow-sm space-y-4">
             <div className="aspect-[4/5] bg-slate-100 rounded-xl overflow-hidden relative border border-slate-200 flex items-center justify-center text-slate-400 group">
               <img 
-                src="/profile.jpeg" 
+                src="/images/profile.png" 
                 alt="Alex Luangxay" 
-                className="w-full h-full object-cover rounded-xl"
+                className="w-full h-full object-cover object-center scale-[1.30] rounded-xl"
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
                 }}
               />
-              <div className="text-center p-4">
-                <p className="font-mono text-xs text-slate-500 font-semibold mb-1">[ Place Photo Here ]</p>
-                <p className="text-[11px] text-slate-400">Save your photo as <code className="bg-slate-100 px-1 py-0.5 rounded text-slate-600">public/profile.jpeg</code></p>
-              </div>
             </div>
 
             <div className="space-y-3 font-mono text-[11px] pt-1">
@@ -174,11 +170,6 @@ export default function App() {
                   e.currentTarget.style.display = 'none';
                 }}
               />
-              <div className="text-center p-3">
-                <Code className="w-5 h-5 mx-auto text-slate-400 mb-1" />
-                <p className="font-mono text-[11px] text-slate-500 font-semibold">[ Engineer Photo ]</p>
-                <p className="text-[10px] text-slate-400 font-mono">public/images/engineer.jpeg</p>
-              </div>
             </div>
             
             <div className="p-5 space-y-4 flex-1 flex flex-col justify-between">
@@ -206,20 +197,15 @@ export default function App() {
 
           {/* CARD 02: ATHLETE */}
           <div className="bg-white border border-blue-100 rounded-2xl overflow-hidden shadow-sm flex flex-col justify-between">
-            <div className="h-44 bg-slate-100 relative border-b border-slate-200 flex items-center justify-center text-slate-400 group">
+            <div className="h-56 bg-slate-100 relative border-b border-slate-200">
               <img 
-                src="/images/athlete.jpeg" 
+                src="/images/athlete.JPG" 
                 alt="Dragon Boat & Outdoor Athletics" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-[50%_25%]"
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
                 }}
               />
-              <div className="text-center p-3">
-                <Dumbbell className="w-5 h-5 mx-auto text-slate-400 mb-1" />
-                <p className="font-mono text-[11px] text-slate-500 font-semibold">[ Athlete Photo ]</p>
-                <p className="text-[10px] text-slate-400 font-mono">public/images/athlete.jpeg</p>
-              </div>
             </div>
 
             <div className="p-5 space-y-4 flex-1 flex flex-col justify-between">
@@ -230,8 +216,8 @@ export default function App() {
                 </div>
                 <div className="font-mono text-xs text-slate-500 space-y-2">
                   <div className="flex justify-between">
-                    <span className="text-slate-400">PRIMARY</span>
-                    <span className="text-slate-800 font-semibold">Dragon Boat Racing</span>
+                    <span className="text-slate-400">Competitive</span>
+                    <span className="text-slate-800 font-semibold">Badminton</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-400">ENDURANCE</span>
@@ -253,18 +239,14 @@ export default function App() {
           <div className="bg-white border border-blue-100 rounded-2xl overflow-hidden shadow-sm flex flex-col justify-between">
             <div className="h-44 bg-slate-100 relative border-b border-slate-200 flex items-center justify-center text-slate-400 group">
               <img 
-                src="/images/builder.jpeg" 
+                src="/images/builder.png" 
                 alt="Hackathons & Hardware Projects" 
                 className="w-full h-full object-cover"
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
                 }}
               />
-              <div className="text-center p-3">
-                <Sparkles className="w-5 h-5 mx-auto text-slate-400 mb-1" />
-                <p className="font-mono text-[11px] text-slate-500 font-semibold">[ Builder Photo ]</p>
-                <p className="text-[10px] text-slate-400 font-mono">public/images/builder.jpeg</p>
-              </div>
+
             </div>
 
             <div className="p-5 space-y-4 flex-1 flex flex-col justify-between">
@@ -510,19 +492,16 @@ export default function App() {
         {/* FULL-WIDTH LANDSCAPE BANNER */}
         <section className="relative h-64 md:h-80 w-full rounded-2xl overflow-hidden border border-blue-100 shadow-sm bg-slate-100 flex items-center justify-center text-slate-400 group">
           <img 
-            src="/images/banner.jpeg" 
+            src="/images/banner.jpg" 
             alt="Outdoors & Athletics Banner" 
             className="w-full h-full object-cover"
             onError={(e) => {
               e.currentTarget.style.display = 'none';
             }}
           />
-          <div className="text-center p-4">
-            <p className="font-mono text-xs text-slate-500 font-semibold mb-1">[ Bottom Landscape Banner Photo ]</p>
-            <p className="text-[11px] text-slate-400 font-mono">Save image as <code className="bg-slate-200/80 px-1.5 py-0.5 rounded text-slate-600">public/images/banner.jpeg</code></p>
-          </div>
+
           <div className="absolute bottom-4 left-4 bg-slate-900/70 backdrop-blur-md px-3 py-1.5 rounded-lg text-white font-mono text-[11px]">
-            ↑ OUTDOORS & ATHLETICS • Dragon Boat & Triathlon Training, Québec
+            ↑ OUTDOORS & ATHLETICS •  Mount Fuji
           </div>
         </section>
 
