@@ -121,7 +121,7 @@ export default function App() {
                 className="inline-flex items-center gap-1.5 text-blue-600 hover:text-blue-700 transition-colors font-semibold border border-blue-200 bg-blue-50 px-3 py-1.5 rounded"
               >
                 <FileText className="w-3.5 h-3.5" />
-                <span>resume.pdf</span>
+                <span>alex_luangxay.pdf</span>
               </button>
             </div>
           </div>
@@ -216,8 +216,8 @@ export default function App() {
                 </div>
                 <div className="font-mono text-xs text-slate-500 space-y-2">
                   <div className="flex justify-between">
-                    <span className="text-slate-400">Competitive</span>
-                    <span className="text-slate-800 font-semibold">Badminton</span>
+                    <span className="text-slate-400">COMPETITIVE</span>
+                    <span className="text-slate-800 font-semibold">Badminton, Dragon Boat</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-400">ENDURANCE</span>
@@ -229,7 +229,7 @@ export default function App() {
                   </div>
                 </div>
               </div>
-              <div className="border-t border-slate-100 pt-3 font-mono text-[11px] text-slate-500">
+              <div className="border-t border-slate-100 pt-3 font-mono text-[11px] text-slate-500 italic">
                 Disciplined outdoor training & competitive team rowing.
               </div>
             </div>
@@ -252,7 +252,7 @@ export default function App() {
             <div className="p-5 space-y-4 flex-1 flex flex-col justify-between">
               <div>
                 <div className="font-mono text-[10px] tracking-wider text-slate-400 uppercase mb-3 flex items-center justify-between">
-                  <span>03 / BUILDER</span>
+                  <span>03 / EXTRACURRICULAR</span>
                   <Sparkles className="w-3.5 h-3.5 text-blue-500" />
                 </div>
                 <div className="font-mono text-xs text-slate-500 space-y-2">
