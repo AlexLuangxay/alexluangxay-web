@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import SpotlightGlow from './components/SpotlightGlow';
 
 export const metadata: Metadata = {
   title: 'Alex Luangxay | Software & Data Engineer',
@@ -13,7 +14,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased selection:bg-blue-100 selection:text-blue-900">
+      <body className="antialiased selection:bg-blue-100 selection:text-blue-900 relative cursor-none">
+        <SpotlightGlow />
         {children}
       </body>
     </html>
