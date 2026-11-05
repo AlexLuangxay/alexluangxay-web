@@ -121,7 +121,7 @@ export default function App() {
                 className="inline-flex items-center gap-1.5 text-blue-600 hover:text-blue-700 transition-colors font-semibold border border-blue-200 bg-blue-50 px-3 py-1.5 rounded"
               >
                 <FileText className="w-3.5 h-3.5" />
-                <span>alex_luangxay.pdf</span>
+                <span>Alex_Luangxay.pdf</span>
               </button>
             </div>
           </div>
@@ -542,7 +542,7 @@ export default function App() {
               </div>
               <div className="flex items-center gap-3">
                 <a 
-                  href="/resume.pdf" 
+                  href="/Alex_Luangxay_resume.pdf" 
                   download 
                   className="inline-flex items-center gap-1.5 font-mono text-xs text-blue-600 bg-blue-50 hover:bg-blue-100 px-3 py-1.5 rounded transition-colors font-medium border border-blue-200"
                 >
@@ -559,7 +559,7 @@ export default function App() {
             </div>
             <div className="flex-1 bg-slate-100 p-2">
               <iframe 
-                src="/resume.pdf" 
+                src="/Alex_Luangxay_resume.pdf" 
                 className="w-full h-full rounded border-0"
                 title="Alex Luangxay Resume"
               />
