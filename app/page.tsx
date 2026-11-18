@@ -354,7 +354,7 @@ export default function App() {
                 </div>
               </div>
               <div className="font-mono text-[11px] text-slate-400 pt-1">
-                Tech: Power BI • SQL • Snowflake • Databricks • Outlook API • REST APIs • Power Automate
+                Tech: Python • Power BI • SQL • Snowflake • Databricks • Outlook API • REST APIs • Power Automate
               </div>
             </div>
 
